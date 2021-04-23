@@ -42,7 +42,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
-	//frameRate(24);
+  frameRate(24);
 	console.log(frameRate())
   print(movie.width + ' • ' + movie.height);
 	print(movie.duration());
